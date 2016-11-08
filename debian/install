@@ -1,0 +1,4 @@
+code/* var/lib/testnative
+start.sh var/lib/testnative
+spaceify.manifest var/lib/testnative
+debian/testnative.service lib/systemd/system

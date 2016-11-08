@@ -1,0 +1,50 @@
+{
+  "provides_services": [
+    {
+      "service_name": "spaceify.org/services/testnative",
+      "service_type": "open"
+    }
+  ],
+  "apt_repositories": [
+    {
+    "architectures": ["all", "amd64", "i386"],
+    "source": "http://spaceify.net/repo stable/spaceify main",
+    "public_key": "url:https://spaceify.net/repo/gpg",
+    "description": "This repository contains the native applications debian package."
+    }
+  ],
+  "apt_packages": [
+    {
+    "name": "testnative",
+    "description": "This is the native applications debian package."
+    }
+  ],
+  "deb_packages": [
+    {
+    "name": "testnative_0.0.1_all.deb",
+    "description": "This is the native applications debian package."
+    }
+  ],
+  "name": "Test Native Application",
+  "unique_name": "testnative",
+  "version": "0.0.1",
+  "type": "native_debian",
+  "category": "test",
+  "developer": {
+    "name": "Spaceify Oy",
+    "url": "http://spaceify.net",
+    "email": "admin@spaceify.net"
+  },
+  "short_description": "Test native application installation and functionality.",
+  "appstore_description": "Test native application installation and functionality.",
+  "license": "MIT",
+  "creation_date": "2016-11-05 11:20:00",
+  "implements": [
+    "WEB_SERVER"
+  ],
+  "images": [
+    {
+      "file": "icon.png"
+    }
+  ]
+}

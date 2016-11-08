@@ -1,0 +1,5 @@
+#!/bin/bash
+
+chmod 0755 /var/lib/testnative/start.sh > /dev/null 2>&1 || true
+
+systemctl restart testnative.service > /dev/null 2>&1 || true

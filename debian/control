@@ -1,0 +1,13 @@
+Source: testnative
+Section: web
+Priority: optional
+Maintainer: Spaceify Inc. <admin@spaceify.net>
+Build-Depends: debhelper (>= 8.0.0), dh-systemd
+Standards-Version: 3.9.4
+
+Package: testnative
+Architecture: all
+Pre-Depends: debconf (>= 0.5)
+Depends: debconf (>= 0.5), libc6 (>= 2.1), ${misc:Depends} 
+Description: Test Native Application.
+ Spaceify's native application test.

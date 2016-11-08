@@ -1,0 +1,31 @@
+{
+  "name": "testnative",
+  "version": "0.0.1",
+  "description": "Native application test.",
+  "author": {
+    "name": "Spaceify Oy",
+    "email": "admin@spaceify.net",
+    "url": "https://spaceify.org/"
+  },
+  "homepage": "https://spaceify.org/",
+  "bugs": {
+    "url": "https://github.com/spaceify/spaceifyedge/issues",
+    "email": "admin@spaceify.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaceify/spaceifyedge.git"
+  },
+  "keywords": ["spaceify", "edge", "node", "core"],
+  "license": "MIT",
+
+  "main": "testnative.js",
+
+  "engines": {
+    "node": ">=5.10.1",
+    "npm": ">=3.8.3"
+  },
+
+  "dependencies": {
+  }
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Test Native Application
+After=spaceify.service
+
+[Service]
+Type=simple
+Environment=HOME=/root
+
+ExecStart=/bin/bash -c '/var/lib/testnative/start.sh'
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
