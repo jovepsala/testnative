@@ -38,13 +38,5 @@
   "short_description": "Test native application installation and functionality.",
   "appstore_description": "Test native application installation and functionality.",
   "license": "MIT",
-  "creation_date": "2016-11-05 11:20:00",
-  "implements": [
-    "WEB_SERVER"
-  ],
-  "images": [
-    {
-      "file": "icon.png"
-    }
-  ]
+  "creation_date": "2016-11-05 11:20:00"
 }
