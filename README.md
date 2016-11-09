@@ -1,5 +1,4 @@
-A Debian package example for testing Spaceify's native applications. Spaceify must be installed for this application to work.
-
-Usage:
-Make a WebSocket connection to port 5000.
+A Debian package example for testing Spaceify's native applications.
 The application exposes 'rand' method. RPC call to this method gets a random number in response.
+
+Use the build-package.sh script to make the test package. The package can be installed with 'spm install testnative.zip' command.
