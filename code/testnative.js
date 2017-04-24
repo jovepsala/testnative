@@ -5,7 +5,7 @@
  * @class TestNative
  */
 
-var spaceify = require("/var/lib/spaceify/code/www/libs/spaceifyapplication.js");
+var spaceify = require("/var/lib/spaceify/code/www/src/spaceifyapplication.js");
 
 function TestNative()
 {
